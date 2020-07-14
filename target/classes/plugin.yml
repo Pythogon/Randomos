@@ -1,0 +1,51 @@
+name: Randomos
+main: uk.kaidev.randomos.Randomos
+version: 0.0.1-SNAPSHOT
+api-version: 1.13
+depend: [SmartInvs]
+commands:
+  clearchat:
+    description: Clears chat.
+    usage: /<command>
+    permission: randomos.clearchat
+    permission-message: §4You don't have §crandomos.clearchat§4.
+    aliases: [cc, cchat]
+  flame:
+    description: Sets a user on fire.
+    usage: /<command> [username]
+    permission: randomos.flame
+    permission-message: §4You don't have §crandomos.flame§4.
+  daily:
+    description: Free money once a day.
+    usage: /<command>
+    permission: randomos.daily
+    permission-message: §4You don't have §crandomos.daily§4.
+  sgm:
+    description: Changes the gamemode.
+    usage: /<command> [gamemode]
+    permission: randomos.sgm
+    permission-message: §4You don't have §crandomos.sgm§4.
+  fakeprefix:
+    description: Create chaos by giving out fake prefixes.
+    usage: /<command> [rank] [user]
+    permission: randomos.fpx
+    permission-message: §4You don't have §crandomos.fpx§4.
+    aliases: [fpx, fpre]
+  unsetprefix:
+    description: Undoes the chaos of fake prefixes.
+    usage: /<command> [user]
+    permission: randomos.usp
+    permission-message: §4You don't have §crandomos.usp§4.
+    aliases: [usp, fpoff, fpxoff]
+  rankmanager:
+    description: GUI-based rank manager.
+    usage: /<command> [user]
+    permission: randomos.rm
+    permission-message: §4You don't have §crandomos.rm§4.
+    aliases: [rm, rankman]
+  suffix:
+    description: GUI-based suffix manager.
+    usage: /<command>
+    permission: randomos.suffix
+    permission-message: §4You don't have §crandomos.suffix§4.    
+    aliases: [ss, suff, setsuffix]
